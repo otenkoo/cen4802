@@ -1,8 +1,12 @@
 import java.util.Scanner;
 
 public class Main {
-    //A recursive static method that returns the nth term in the Fibonacci sequence.
-    // The method should accept n as a parameter and return the nth term in the sequence.
+    /**
+     * Recursively calculates and returns the value of the nth position of the Fibonacci sequence from user input.
+     * @param n the position within the Fibonacci series to be computed.
+     * @return the value of the nth position of the Fibonacci Sequence.
+     * @author Gener Almestica
+     */
     public static int fibonacci(int n) {
         if (n == 0) {
             return 0;
